@@ -31,6 +31,8 @@ const int DFPLAYER_DELAY = 100; // ms
 const int PLAY_DELAY = 1600;    // ms
 const int POLL_DELAY = 200;     //ms
 
+const int WF_VOLUME = 24;     // 0 - 30
+
 const int IS_PLAYING = 0;  // low
 const int NOT_PLAYING = 1; // high
 const int IS_IDLE = 0;     // low
@@ -74,7 +76,7 @@ void setup()
   Serial.println(F("DFPlayer online!"));
 
   // Volume
-  wfPlayer.volume(12);
+  wfPlayer.volume(WF_VOLUME);
   delay(DFPLAYER_DELAY);
 
   // Lees aantal tracks
