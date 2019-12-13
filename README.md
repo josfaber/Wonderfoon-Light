@@ -8,4 +8,4 @@ This Light version starts playing random music tracks as soon as the speaker is 
 More info on the original Wonderfoon can be found on both http://www.wonderfoon.nl/ (the inventor) and https://www.wonderfoon.eu/ (the community)
 
 ## Schema with Arduino Nano / ch340
-![Wonderfoon light schema](https://raw.githubusercontent.com/josfaber/wonderfoon-light/master/wonderfoon-light-schema.jpg)
+![Wonderfoon light schema](https://github.com/josfaber/wonderfoon-light/raw/master/wonderfoon-light-schema.jpg)
