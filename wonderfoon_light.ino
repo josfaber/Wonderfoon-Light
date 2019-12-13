@@ -60,7 +60,7 @@ void handleType(uint8_t type, int value);
 void setup()
 {
   pinMode(BUSY_PIN, INPUT);
-  pinMode(HOOK_PIN, INPUT_PULLUP);
+  pinMode(HOOK_PIN, INPUT);
 
   wfSerial.begin(9600);
   Serial.begin(115200);
